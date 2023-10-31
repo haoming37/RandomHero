@@ -14,6 +14,7 @@ function App() {
       "sigma",
       "winston",
       "zarya",
+			"ramattra",
     ];
     const selected = Math.floor(Math.random() * tank.length);
     setImage("tank/" + tank[selected] + ".png");
@@ -28,6 +29,8 @@ function App() {
       "mercy",
       "moira",
       "zenyatta",
+			"lifeweaver",
+			"illari",
     ];
     const selected = Math.floor(Math.random() * support.length);
     setImage("support/" + support[selected] + ".png");
